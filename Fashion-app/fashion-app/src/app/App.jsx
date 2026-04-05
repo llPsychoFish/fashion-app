@@ -3,6 +3,7 @@ import Splash from "./pages/Splash";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import './firebaseConfig.js';
 
 export default function App() {
   return (

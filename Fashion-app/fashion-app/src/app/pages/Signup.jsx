@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { auth, db } from "../firebase";
+import { auth, db } from "../firebaseConfig";
 import {
   createUserWithEmailAndPassword,
   GoogleAuthProvider,
